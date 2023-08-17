@@ -1,17 +1,13 @@
 #include "main.h"
 
 /**
-* print_numbers - print 0-9
-* return: void
+* mul - multiply 2 int
+* @a: first int
+* @b: second int
+* Return: addition of the multiplicattion
 */
 
-void print_numbers(void)
+int mul(int a, int b)
 {
-	char c;
-
-	for (c = '0'; c <= '9'; c++)
-	{
-		_putchar(c);
-	}
-	_putchar('\n');
+	return (a * b);
 }
