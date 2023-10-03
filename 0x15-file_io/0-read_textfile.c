@@ -1,4 +1,4 @@
-#include "header.h"
+#include "main.h"
 
 /**
  * read_text_file - reads a text file and prints its content
