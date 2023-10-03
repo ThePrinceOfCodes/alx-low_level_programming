@@ -31,7 +31,7 @@ void error_file(int file_from, int file_to, char *argv[])
 int main(int argc, char *argv[])
 {
     int file_from, file_to, err_close;
-    size_t nchars, nwr;
+    ssize_t nchars, nwr;
     char buf[1024];
 
     if (argc != 3)
